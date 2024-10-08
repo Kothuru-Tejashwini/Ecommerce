@@ -1,0 +1,212 @@
+/* CSS for the form */
+#register-form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for input fields */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Styling for the labels */
+.label-text {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Styling for the submit button */
+#submit-button {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#submit-button:hover {
+    background-color: #45a049;
+}
+/* CSS for the login form */
+#login-form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for input fields */
+.input-field {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Styling for the labels */
+.label-text {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+/* Styling for the login button */
+#login-button {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#login-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the register link */
+#register-link {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#register-link:hover {
+    color: #0056b3;
+}
+/* Styling the products container */
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Styling each product card */
+  .product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    text-align: center;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styling product images */
+  .product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  /* Add some padding to the body */
+  body {
+    font-family: Arial, sans-serif;
+  }
+/* Container for the navbar */
+#nav1 {
+    background-color:rgb(233, 202, 233);
+    padding: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 60px;
+    width: 100%;
+  }
+  
+  /* Styling for the navigation section */
+  #nav2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Align "My Style" heading to the right */
+  #d1 {
+    margin-left: auto;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Align buttons to the left */
+  #nav2 button {
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #nav2 button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Center content styling */
+  #centerContent {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #centerContent h3 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  #centerContent p {
+    font-size: 14px;
+    color: #555;
+  }
+#d1{
+  margin-left:40px;
+  color:rgb(30, 190, 169)
+}
+#d2{
+  margin-left:1300px;
+  border: solid;
+}
+#nav1{
+  background-color: black;
+}
